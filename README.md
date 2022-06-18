@@ -10,7 +10,7 @@ sudo apt install -y cmake g++ python3
 mkdir build 
 cd build 
 cmake ../src 
-make && copy compress ../ compress 
+make && cp compress ../compress 
 cd ..
 ```
 
